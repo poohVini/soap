@@ -187,7 +187,7 @@ html {
 	margin: 32px auto 0 ;
 }
 .owl-prev {
-	background-image: url("images/arrow-left.svg");
+	background-image: url("newfoto/arrow-left.svg");
 	height: 16px;
 	width: 16px;
 	background-size: contain;
@@ -197,7 +197,7 @@ html {
 	margin-top: auto;
 }
 div.owl-next {
-	background-image: url("images/arrow-right.svg");
+	background-image: url("newfoto/arrow-right.svg");
 	height: 16px;
 	width: 16px;
 	background-size: contain;
