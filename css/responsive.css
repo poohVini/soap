@@ -1,15 +1,10 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1010px) {
 
 .page {
-	width: 768px;
 	margin: 0px;
 	margin-right:0px;
 
 
-}
-.page__row,
-.page__row1 {
-	width: 768px;
 }
 .card__left, 
 .owl-carousel.slider, 
@@ -26,8 +21,6 @@
 	background-size: contain;
 }
 .card__right {
-	float: left;
-	padding-left: 24px; 
 	width: 342px;
 }
 .box_email {
@@ -36,11 +29,6 @@
 .email {
 	float: left;
 	margin-top: 20px;
-}
-.page__cell {
-	padding: 0 30px;
-	max-width: 1220px;
-	display: inline-block;
 }
 .owl-wrap {
 	height: auto;
@@ -64,12 +52,6 @@
 	float: right;
 	padding-right: 30px;
 }
-.page__row1.page__row--footer {
-	height: auto; 
-	position: relative;
-	display: inline-block;
-	
-}
 .page__cell1 {
 	position: relative;
 	display:inline-block;
@@ -77,9 +59,7 @@
 }
 .footer {
 	height: auto;
-	width: 688px;
 	display: inline-block;
-	margin:0 40px 0 40px;
 	position: relative;
 	padding-bottom: 32px;
 }
@@ -101,9 +81,7 @@
 .card__right {
 	display: block;
 	width: 272px;
-	margin:30px 24px 0 24px;
 	padding: 0;
-	height: auto;
 }
 .card__cell {
 	display: block;
@@ -331,9 +309,6 @@
 .page.active {
 	overflow: hidden;
 	padding-top: 0;
-}
-.page__row.act {
-	height: auto;
 }
 .nav__item__dropdown {
 position: relative;
