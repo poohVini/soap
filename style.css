@@ -60,6 +60,7 @@ html {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
+	align-items: center;
 }
 .logo {
 	height: 32px;
@@ -114,7 +115,6 @@ html {
 	display: block;
 }
 .header__nav {
-	margin: 9px 0;
 	display: inline-block;
 }
 .item-dropdown {
@@ -129,7 +129,6 @@ html {
 	margin: 20px 20px;
 }
 .header__phone-number {
-	margin: 6.8px 0;
 	font-family: "mono_regular";
 	font-size: 20px;
 	display: inline-block;
@@ -164,12 +163,13 @@ html {
 	padding-top: 487px;
 	background-position: left top;
 	background-repeat: no-repeat;
-	-webkit-background-size: contain;
-	background-size: contain;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .owl-nav {
 	text-align: center;
-	display: block;
+	display: flex;
+	justify-content: space-between;
 	width: 80px;
 	height: 16px;
 	margin: 32px auto 0;
@@ -194,6 +194,7 @@ div.owl-next {
 .card__right {
 	width: 377px;
 	display: block;
+	padding: 0 50px 0 0;
 }
 .headline {
 	margin-bottom: 18px;
@@ -435,7 +436,7 @@ div.owl-next {
 }
 .page__row {
 	max-width: 1200px;
-	margin: 0 auto 48px auto;
+	margin: 0 0 48px 0;
 }
 .page__row {
 	padding-top: 41px;
