@@ -47,6 +47,7 @@ html {
 .page {
 	padding: 0;
 	margin: 0;
+	width: 100%;
 }
 .page__cell {
 	margin: 0 auto 0 auto;
@@ -424,11 +425,14 @@ div.owl-next {
 }
 .footer__nav,
 .footer__copyright,
-.box_email,
 .email,
 .row,
 .footer__item {
 	display: inline-block;
+}
+.box_email {
+	display: inline-block
+	
 }
 .footer__nav_ul {
 	margin: 0;
@@ -461,9 +465,6 @@ div.owl-next {
 	-ms-flex-pack: justify;
 	justify-content: space-between;
 	width: 199px;
-}
-.email {
-	float: right;
 }
 .box_email {
 	width: 84%;
@@ -501,6 +502,8 @@ div.owl-next {
 	border-top: 1px solid #d8d8d8;
 	padding: 32px 0 64px 0;
 	border-top: 1px solid #d8d8d8;
+	display: flex;
+	flex-flow: row nowrap;
 }
 .midsalod {
 	transform: translate(0, 0);

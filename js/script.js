@@ -70,7 +70,7 @@ let styleElem = document.head.appendChild(document.createElement("style"));
 			content1.style.overflow = "hidden";
 			content1.style.height = "119px";
 			styleElem.innerHTML = ".content1:before {display: block;}";
-			descrip.style.height = "170px";
+			descrip.style.height = "177px";
 		}
 
 }
