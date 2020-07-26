@@ -307,7 +307,7 @@ div.owl-next {
 	margin-bottom: 1px;
 }
 .owl-dots1 {
-	width: 377px;
+	max-width: 377px;
 	display: block;
 	padding: 0;
 	margin: 0;
@@ -431,7 +431,10 @@ div.owl-next {
 	display: inline-block;
 }
 .box_email {
-	display: inline-block
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	width: 84%;
 	
 }
 .footer__nav_ul {
@@ -465,9 +468,6 @@ div.owl-next {
 	-ms-flex-pack: justify;
 	justify-content: space-between;
 	width: 199px;
-}
-.box_email {
-	width: 84%;
 }
 #label,
 #e-mail {
@@ -596,7 +596,7 @@ div.owl-next {
 	display: flex;
 	justify-content: space-between;
 }
-body.lock {
+.lock {
 	overflow: hidden;
 }
 
@@ -652,4 +652,7 @@ body.lock {
 }
 .page__cell1 {
 	width: inherit;
+}
+.footer__nav {
+	padding-right: 20px;
 }

@@ -95,6 +95,7 @@ disabled();
 
 
 const popupLinks = document.querySelectorAll(".popup-link");
+const wraper = document.querySelector(".wraper");
 const body = document.querySelector("body");
 const lockPadding = document.querySelectorAll(".lock-padding");
 
@@ -148,7 +149,7 @@ function popupClose(popupActive, doUnlock = true) {
 }
 
 function bodyLock() {
-	const lockPaddingValue = window.innerWidth - document.querySelector('.wraper').offsetWidth + 'px';
+	const lockPaddingValue = window.innerWidth - document.querySelector('.page').offsetWidth + 'px';
 
 	if (lockPadding.length > 0) {
 		for (let index = 0; index < lockPadding.length; index++) {
@@ -156,7 +157,7 @@ function bodyLock() {
 			el.style.paddingRight = lockPaddingValue;
 		}
 	}
-	body.style.paddingRight = lockPaddingValue;
+	wraper.style.paddingRight = lockPaddingValue;
 	body.classList.add('lock');
 
 	unlock = false;
@@ -173,7 +174,7 @@ function bodyUnLock() {
 				el.style.paddingRight = '0px';
 			}
 		}
-		body.style.paddingRight = '0px';
+		wraper.style.paddingRight = '0px';
 		body.classList.remove('lock');
 	}, timeout);
 
