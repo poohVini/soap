@@ -59,7 +59,7 @@
 	padding-bottom: 32px;
 }
 }
-@media screen and (max-width: 929px) {
+@media screen and (max-width: 912px) {
 	.email {
 		margin-top: 20px;
 	}
@@ -140,20 +140,64 @@
 	display: block;
 }
 }
-
+@media screen and (max-width: 660px) {
+	.wSend {
+		margin: 15px 0 0 0;
+		width: 272px;
+	}
+	.box_email {
+		width: 272px;
+	}
+	.footer {
+		justify-content: space-between;
+	}
+	.footer__copyright {
+		flex: 0 0 100px;
+	}
+}
+@media screen and (max-width: 432px) {
+	.box_email {
+		height: auto;
+		width: 272px;
+		order: 1;
+	}
+	.footer__copyright {
+		margin-top: 20px;
+		height: 30px;
+		display: block;
+		padding: 0 10px 0 0;
+		order: 2;
+	}
+	.footer {
+		height: auto;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.footer__nav {
+		padding: 0;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 421px) {
+	.box_email {
+		padding-top: 15px;
+	}
+	.email {
+		margin-top: 40px;
+	}
+}
 @media screen and (max-width: 320px) {
+.footer__nav {
+	margin: 0;
+}
+.footer {
+	display:block;
+}
 .page {
 	margin-top: 0;
 }
-.card__left {
-	display: block;
-	width: 320px;
-	padding: 0;
-	height: auto;
-}
 .card__right {
 	display: block;
-	width: 272px;
 	padding: 0;
 }
 .card__cell {
@@ -172,17 +216,12 @@
 	display:inline-block;
 	margin:auto;
 }
-
-.footer__copyright {
-	height: 30px;
-	display: block;
-}
 .owl-wrap {
 	height: auto; 
 	display: inline-block;
 }
 .owl-stage-outer {
-	height: auto;
+	height: 100%;
 }
 .content2 {
 	height: auto;
@@ -200,13 +239,6 @@
 	width: 230px;
 	height: 390px;
 }
-.footer {
-	height: auto;
-	width: 272px;
-	display: inline-block;
-	margin:0 24px;
-	position: relative;
-}
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -223,9 +255,8 @@
 }
 .box_email {
 	height: auto;
-	width: 272px;
 	margin-top: 15px;
-	display: block;
+	width: 100%;
 }
 .owl-dots1 {
 	width: 272px;
@@ -237,10 +268,11 @@
 .wSend {
 	width: 272px;
 	padding-top: 20px;
+	margin: 0;
 }
 .email {
 	margin: 40px 0 40px 0;
-	
+	display: block;
 }
 .owl-loaded{
 	margin: auto;
@@ -249,15 +281,9 @@
 	display: inline-block;
 	margin-top: 9.8px;
 }
-.owl-carousel.slider.owl-loaded{
-	height: 320px;
-	width: 320px;
-
-}
 .slider__item {
-	height: 320px;
+	height: 100%;
 	padding-top: 0;
-	width: 320px;
 }
 .card__row {
 	height: auto;
@@ -275,5 +301,20 @@
 	background-color: white;
 	height: 87px;
 	padding-top: 0;
+}
+.card__left {
+	height: 300px;
+}
+.slider__item {
+	height: 100%;
+}
+.owl-item {
+	height: 100%;
+}
+.owl-stage {
+	height: 100%;
+}
+.owl-carousel.slider.owl-loaded {
+	height: 100%;
 }
 }

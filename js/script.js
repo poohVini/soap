@@ -20,7 +20,7 @@ $(document).ready(function(){
 	});
 });
 
-//попытки отключить пассивный обработчик событий(реализщвал через css)
+//попытки отключить пассивный обработчик событий(реализовал через css)
 /*let owll = document.querySelector(".slider");
 window.addEventListener('touchstart', e => e.preventDefault(), { passive: false });*/
 
@@ -281,12 +281,6 @@ function dropNav() {
 				heder__wrap_right.classList.toggle("drop");
 				body.classList.toggle("active");
 				header.classList.toggle("act");
-
-				//попытки убрать скролл
-		/*		let heder__wrap_rightAct = document.querySelector(".drop");
-				if(heder__wrap_rightAct) {
-					heder__wrap_rightAct.style.height = document.documentElement.clientHeight + "px";
-		}*/
 			}
 
 }
@@ -299,4 +293,7 @@ let dropdown__content = document.querySelector(".dropdown__content");
 drop__menu.addEventListener("click", function() {
 	dropdown__content.classList.toggle("drop__menu-open");
 });*/
+
+let owlStage = document.querySelector(".owl-stage");
+owlStage.style.height = "300px";
 	
