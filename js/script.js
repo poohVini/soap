@@ -5,9 +5,9 @@ $(document).ready(function(){
 	$('.slider').owlCarousel({
 		items: 1,
 		loop: true,
-		autoplay: true,
+		autoplay: false,
 		autoplayTimeout: 5000,
-		autoHeight: false,
+		autoHeight: true,
 		nav : true,
 		navText : ["",""],
 		pagination : true,
@@ -294,6 +294,6 @@ drop__menu.addEventListener("click", function() {
 	dropdown__content.classList.toggle("drop__menu-open");
 });*/
 
-let owlStage = document.querySelector(".owl-stage");
-owlStage.style.height = "300px";
+/* let owlStage = document.querySelector(".owl-stage");
+owlStage.style.height = "300px"; */
 	

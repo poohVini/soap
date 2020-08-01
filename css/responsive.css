@@ -251,7 +251,7 @@
 	width: 100%;
 }
 .owl-nav {
-	display: block;
+
 }
 .box_email {
 	height: auto;
@@ -303,10 +303,7 @@
 	padding-top: 0;
 }
 .card__left {
-	height: 300px;
-}
-.slider__item {
-	height: 100%;
+	height: 328px;
 }
 .owl-item {
 	height: 100%;
@@ -316,5 +313,12 @@
 }
 .owl-carousel.slider.owl-loaded {
 	height: 100%;
+}
+.slider__item {
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	width: 100%;
 }
 }
