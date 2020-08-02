@@ -187,6 +187,9 @@
 	.color__text {
 		position: absolute;
 	}
+	.color__nav {
+		display: block;
+	}
 }
 @media screen and (max-width: 432px) {
 	.box_email {
