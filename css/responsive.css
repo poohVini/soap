@@ -155,6 +155,30 @@
 		flex: 0 0 100px;
 	}
 }
+@media screen and (max-width: 600px) {
+	.card__right {
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+	
+	}
+	.headline {
+		order: 3;
+	}
+	.cost {
+		order: 4;
+	}
+	.color {
+		order: 1;
+	}
+	.btn_basket {
+		order: 2;
+		margin: 0 0 10px 0;
+	}
+	.bottom__nav__slider {
+		order: 5;
+	}
+}
 @media screen and (max-width: 432px) {
 	.box_email {
 		height: auto;
@@ -309,28 +333,6 @@
 }
 .slider__item {
 	width: 100%;
-}
-.card__right {
-	padding: 0;
-	display: flex;
-	flex-wrap: wrap;
-
-}
-.headline {
-	order: 3;
-}
-.cost {
-	order: 4;
-}
-.color {
-	order: 1;
-}
-.btn_basket {
-	order: 2;
-	margin: 0 0 10px 0;
-}
-.bottom__nav__slider {
-	order: 5;
 }
 
 }
