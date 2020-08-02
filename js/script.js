@@ -16,7 +16,14 @@ $(document).ready(function(){
   		dotsData : false,
   		dotsContainer: '#carousel-custom-dots',
   		dotsEach : 2,
-  		touchDrag: true
+		touchDrag: true,
+		responsiveClass:true,
+		responsive:{
+			 320:{
+				autoHeight: false,
+				
+			 } 
+		}
 	});
 });
 
