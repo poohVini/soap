@@ -183,6 +183,7 @@
 	}
 	.color__nav #carousel-custom-dots.owl-dots {
 		margin: auto;
+		width: 120px;
 	}
 	.color__text {
 		position: absolute;
