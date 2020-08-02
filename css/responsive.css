@@ -173,6 +173,7 @@
 	.color {
 		margin: 0 0 10px 0;
 		order: 1;
+		flex-wrap: nowrap;
 	}
 	.btn_basket {
 		order: 2;
