@@ -169,14 +169,21 @@
 		order: 4;
 	}
 	.color {
+		margin-top: 0;
 		order: 1;
 	}
 	.btn_basket {
 		order: 2;
-		margin: 0 0 10px 0;
+		margin: 0 0 30px 0;
 	}
 	.bottom__nav__slider {
 		order: 5;
+	}
+	.color__nav #carousel-custom-dots.owl-dots {
+		margin: auto;
+	}
+	.color__text {
+		position: absolute;
 	}
 }
 @media screen and (max-width: 432px) {
@@ -326,7 +333,7 @@
 	background-size: contain;
 }
 .owl-nav {
-	margin: 0 auto 0 auto;
+	margin: 0 auto 20px auto;
 }
 .owl-height {
 	height: 300;
