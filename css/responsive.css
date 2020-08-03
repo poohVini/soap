@@ -221,6 +221,7 @@
 	}
 	.email {
 		margin-top: 40px;
+		width: 272px;
 	}
 	.wSend {
 		flex-wrap: nowrap;
