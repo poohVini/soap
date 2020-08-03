@@ -238,7 +238,7 @@ div.owl-next {
 	border-color: solid black;
 }
 .color__nav #carousel-custom-dots.owl-dots {
-	margin: 0 65px;
+	margin: auto;
 	padding: 0;
 	height: 32px;
 	width: 116px;
@@ -253,7 +253,7 @@ div.owl-next {
 	justify-content: space-between;
 }
 .color__text {
-	position: relative;
+	position: absolute;
 	display: inline-block;
 	margin: 6.935px;
 	margin-left: 0;
