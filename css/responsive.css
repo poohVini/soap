@@ -22,6 +22,8 @@
 	height: auto;
 }
 .slider__item {
+	background-position: bottom center;
+	background-repeat: no-repeat;
 	-webkit-background-size: contain;
 	background-size: contain;
 }
@@ -76,6 +78,9 @@
 	.owl-stage-outer  {
 		max-width: 300px;
 	}
+	.owl-nav {
+		margin: 0 auto 0 auto;
+	}
 }
 @media screen and (max-width: 768px) {
 	.card__left,
@@ -91,9 +96,7 @@
 	.owl-carousel.slider.owl-loaded,
 	.owl-stage-outer  {
 		width:100%;
-	}
-	.card__right {
-		padding-left: 10px;
+		max-width: 640px;
 	}
 	.card__cell {
 		flex: 0 0 500px;
@@ -139,6 +142,42 @@
 .header__btn {
 	display: block;
 }
+.owl-nav {
+	margin: 0 auto 20px auto;
+}
+.card__right {
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.headline {
+	order: 3;
+}
+.cost {
+	order: 4;
+}
+.color {
+	margin: 0 0 10px 0;
+	order: 1;
+	flex-wrap: nowrap;
+}
+.btn_basket {
+	order: 2;
+	margin: 0 0 40px 0;
+}
+.bottom__nav__slider {
+	order: 5;
+}
+.color__nav #carousel-custom-dots.owl-dots {
+	margin: auto;
+	width: 120px;
+}
+.color__text {
+	position: absolute;
+}
+.color__nav {
+	display: block;
+}
 }
 @media screen and (max-width: 660px) {
 	.wSend {
@@ -156,42 +195,7 @@
 	}
 }
 @media screen and (max-width: 600px) {
-	.owl-nav {
-		margin: 0 auto 20px auto;
-	}
-	.card__right {
-		padding: 0;
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.headline {
-		order: 3;
-	}
-	.cost {
-		order: 4;
-	}
-	.color {
-		margin: 0 0 10px 0;
-		order: 1;
-		flex-wrap: nowrap;
-	}
-	.btn_basket {
-		order: 2;
-		margin: 0 0 40px 0;
-	}
-	.bottom__nav__slider {
-		order: 5;
-	}
-	.color__nav #carousel-custom-dots.owl-dots {
-		margin: auto;
-		width: 120px;
-	}
-	.color__text {
-		position: absolute;
-	}
-	.color__nav {
-		display: block;
-	}
+
 }
 @media screen and (max-width: 432px) {
 	.box_email {
@@ -222,6 +226,11 @@
 	}
 	.email {
 		margin-top: 40px;
+	}
+}
+@media screen and (max-width: 360px) {
+	.slider__item {
+		height: 250px;
 	}
 }
 @media screen and (max-width: 320px) {
@@ -333,12 +342,7 @@
 	height: 87px;
 	padding-top: 0;
 }
-.slider__item {
-	background-position: top left;
-	background-repeat: no-repeat;
-	-webkit-background-size: contain;
-	background-size: contain;
-}
+
 
 .owl-height {
 	height: 300;

@@ -19,8 +19,8 @@ $(document).ready(function(){
 		touchDrag: true,
 		responsiveClass:true,
 		responsive:{
-			 320:{
-				autoHeight: false,
+			 680:{
+				
 				
 			 } 
 		}
