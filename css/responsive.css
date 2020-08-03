@@ -222,6 +222,9 @@
 	.email {
 		margin-top: 40px;
 	}
+	.wSend {
+		flex-wrap: nowrap;
+	}
 }
 @media screen and (max-width: 360px) {
 	.slider__item {
