@@ -224,8 +224,9 @@
 		margin-top: 40px;
 		width: 272px;
 	}
+	.email,
 	.wSend {
-		flex-wrap: nowrap;
+		width: 280px;
 	}
 }
 @media screen and (max-width: 360px) {
