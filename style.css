@@ -90,7 +90,6 @@ html {
 	opacity: 0.5;
 }
 .header__btn {
-	text-align: right;
 	display: none;
 }
 .dropdown__content {
@@ -481,6 +480,7 @@ div.owl-next {
 	box-shadow: none;
 	background: none;
 	outline: none;
+	padding-right: 0;
 }
 #btn-send:hover {
 	opacity: 0.5;
@@ -656,3 +656,4 @@ div.owl-next {
 .footer__nav {
 	padding-right: 20px;
 }
+
