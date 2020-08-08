@@ -260,7 +260,7 @@
 .color__nav {
 	display: block;
 }
- body.lock {
+.page.lock {
 	 overflow: hidden;
  }
 }

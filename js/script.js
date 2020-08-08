@@ -544,7 +544,7 @@ function dropNav() {
 	let menuClik = document.querySelector(".header__btn");
 	let header__nav = document.querySelector(".header__nav"); 
 	let header__btn = document.querySelector(".header__btn"); 
-	let body = document.querySelector("body"); 
+	let body = document.querySelector(".page"); 
 		menuClik.onclick = function() {
 			header__nav.classList.toggle("drop");
 			header__btn.classList.toggle("drop");
