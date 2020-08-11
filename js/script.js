@@ -541,14 +541,15 @@ function showModalWin1() {
 showModalWin1();*/
 
 function dropNav() {
-	let menuClik = document.querySelector(".header__btn");
 	let header__nav = document.querySelector(".header__nav"); 
 	let header__btn = document.querySelector(".header__btn"); 
 	let body = document.querySelector(".page"); 
-		menuClik.onclick = function() {
+	let header = document.querySelector(".header"); 
+	header__btn.onclick = function() {
 			header__nav.classList.toggle("drop");
 			header__btn.classList.toggle("drop");
 			body.classList.toggle("lock");
+			header.classList.toggle("border");
 			}
 
 }

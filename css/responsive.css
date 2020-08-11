@@ -124,6 +124,27 @@
 		background-color: #fff;
 		z-index: 3;
   }
+  .header.border:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #D8D8D8;
+	z-index: 3;
+}
+.header:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 1px;
+	background-color: #D8D8D8;
+	z-index: 3;
+	transition: all 0.3s ease 0s;
+}
   .header__logo {
 	  z-index: 4;
   }
@@ -135,7 +156,7 @@
 	z-index: 4;
 }
 .header {
-	z-index: inherit;
+	position: relative;
 }
 .header__btn:before,
 .header__btn:after {
@@ -217,8 +238,7 @@
 	padding: 88px 20px 0 20px;
  }
 .header{
-
-	padding: 0 30px;
+	margin: 0 30px;
 	height: 87px;
 	display: flex;
 	align-items: centr;
@@ -262,6 +282,7 @@
 }
 .page.lock {
 	 overflow: hidden;
+	 scroll-behavior: ;
  }
 }
 @media screen and (max-width: 660px) {
