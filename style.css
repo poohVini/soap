@@ -599,7 +599,9 @@ div.owl-next {
 .lock {
 	overflow: hidden;
 }
-
+.lock__drop {
+	overflow: hidden;
+}
 .popup {
 	position: fixed;
 	width: 100%;

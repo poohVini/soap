@@ -280,10 +280,6 @@
 .color__nav {
 	display: block;
 }
-.page.lock {
-	 overflow: hidden;
-	 scroll-behavior: ;
- }
 }
 @media screen and (max-width: 660px) {
 	.wSend {

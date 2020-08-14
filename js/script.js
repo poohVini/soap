@@ -546,11 +546,15 @@ function dropNav() {
 	let body = document.querySelector(".page"); 
 	let header = document.querySelector(".header"); 
 	header__btn.onclick = function() {
-			header__nav.classList.toggle("drop");
-			header__btn.classList.toggle("drop");
-			body.classList.toggle("lock");
-			header.classList.toggle("border");
-			}
+		header__nav.classList.toggle("drop");
+		header__btn.classList.toggle("drop");
+		header.classList.toggle("border");
+		if(header__btn.classList.contains("drop")) {
+			body.classList.add("lock__drop");
+		}else{
+			body.classList.remove("lock__drop");
+		}
+	}
 
 }
 
