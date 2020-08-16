@@ -111,6 +111,9 @@
 		flex-direction: column;
 		padding: 0 0 20px 0;
 	}
+	.lock__drop {
+		overflow: hidden;
+	}
 	.card__cell {
 		flex: 0 0 500px;
 		flex-wrap: wrap;
