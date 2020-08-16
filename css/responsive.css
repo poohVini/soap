@@ -98,6 +98,19 @@
 		width:100%;
 		max-width: 640px;
 	}
+	.dropdown__content {
+		position: relative;
+		align-self: center;
+		left:0;
+		top:0;
+		width: auto;
+	}
+	.nav__item__dropdown:hover {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding: 0 0 20px 0;
+	}
 	.card__cell {
 		flex: 0 0 500px;
 		flex-wrap: wrap;

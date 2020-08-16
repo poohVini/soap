@@ -42,7 +42,7 @@ let owl1 = $('.description');
 		loop: false,
 		autoHeight: false,
 		autoplay: false,
-		autoHeight: false,
+		autoHeight: true,
 		mouseDrag : false,
 		dotsData : false,
 		pagination : true,
