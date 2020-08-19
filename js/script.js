@@ -7,7 +7,7 @@ $(document).ready(function(){
 		loop: true,
 		autoplay: true,
 		autoplayTimeout: 5000,
-		autoHeight: true,
+		autoHeight: false,
 		nav : true,
 		navText : ["",""],
 		pagination : true,
@@ -69,9 +69,9 @@ let styleElem = document.head.appendChild(document.createElement("style"));
 	if(content1.style.overflow === "hidden") {
 	btn.innerHTML="Скрыть ↑";
 	content1.style.overflow = "visible";
-	content1.style.height = "auto";
+	content1.style.height = "100%";
 	styleElem.innerHTML = ".content1:before {display: none;}";
-	descrip.style.height = "auto";
+	descrip.style.height = "100%";
 		} else {
 			btn.innerHTML="Показать больше ↓";
 			content1.style.overflow = "hidden";
